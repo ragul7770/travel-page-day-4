@@ -114,10 +114,10 @@ section {
   color: #ff6600;
 }
 
-#home { background-image:url(home.1.2.jpeg); background-repeat: no-repeat;background-size: cover;}
-#abt { background-image: url(abt\ 1.2..jpeg);}
+#home { background-image:url(home\ hd.jpg); background-repeat: no-repeat;background-size: cover;}
+#abt { background-image: url(about\ hd.jpg);}
 #desti { background: linear-gradient(to right, #b8676a, #e008e8c9); color: #222; }
-#contact { background-image:url('contact.1.2.jpeg'); background-repeat: no-repeat; background-size: cover;
+#contact { background-image:url('contact.hd.jpg'); background-repeat: no-repeat; background-size: cover;
 #book {background: linear-gradient(to right, #a18cd1, #fbc2eb); color: #222; }
 
 section h1, section h2 {
@@ -162,7 +162,7 @@ section p {
   color: #222;
 }
 #home {
-background-image: url('home.1.2.jpeg');
+background-image: url('home\ hd.jpg');
 background-repeat: no-repeat;
 color: #fff;
 text-align: center;
@@ -208,7 +208,7 @@ padding: 100px 20px;
   color: #00f2fe;
 }
 #abt {
-  background: url('abt\ 1.2..jpeg') no-repeat center center/cover;
+  background: url('about\ hd.jpg') no-repeat center center/cover;
   padding: 80px 20px;
   display: flex;
   justify-content: center;
