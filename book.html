@@ -22,8 +22,8 @@
     <p>Plan your dream vacation with DJ Holidays. Fill the form below to start your journey!</p>
 <br><br>
     <form class="contact-form" action="#" method="post">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Your Email" required>
+      <label for="name">YOUR NAME</label><input type="text" name="name" placeholder="Your Name"  required>
+      <label for="email">EMAIL ADDRESS</label><input type="email" name="email" placeholder="Your Email" required>
       <input type="tel" name="phone" placeholder="Phone Number" required>
       <select name="destination" required>
         <option value="">Select Destination</option>
@@ -50,7 +50,7 @@ padding: 50px;
     }
 .contact-form {
   padding: 2px;
-  width: 650px;
+  width: 550px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
